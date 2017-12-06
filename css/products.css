@@ -1,0 +1,134 @@
+.head-nav li:nth-child(2) a{border-bottom:2px solid #fff;}
+
+/*banner*/
+.ban img{
+    width: 100%;
+}
+/*classification*/
+.classification{
+    box-shadow:0 1px  15px 0 #ddd;
+    -moz-box-shadow:0 1px 15px 0 #ddd;
+    -webkit-box-shadow:0 1px 15px 0 #ddd;
+}
+.classification .container{
+    padding: 0;
+}
+.classification .varieties_one ul{
+    text-align: center;
+    margin-bottom:0
+}
+.classification .varieties_one ul li{
+    float: left;
+    padding: 2% 7%;
+    text-align: center;
+    font-size: 1.8rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.classification .varieties_one ul li.active{
+    background: #3aaaff;
+    color:#fff;
+}
+.classification .varieties_one:nth-child(2){
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+}
+
+/*product*/
+.product_box{
+    padding-top: 5%;
+    display: none;
+}
+.active_pro{
+    display: block;
+}
+.product_box .product_one >div{
+    width: 48%;
+}
+.product_box .product_one >div .drug_one{
+    border: 1px solid #d2d2d2;
+    margin: 2% 0;
+    position: relative;
+}
+.product_box .product_one >div .drug_one img{
+    margin: 4% 7%;
+    float: left;
+}
+.product_box .product_one >div .drug_one em{
+    font-style: normal;
+    font-weight: bold;
+}
+.product_box .product_one >div .drug_one .pr{
+    padding-top: 5%;
+    color: #007aff;
+}
+.product_box .product_one >div .drug_one a{
+    position:absolute;
+    right:20px;
+    bottom:10px;
+    color:#007aff;
+    font-size:1.4rem;
+}
+
+/*售后服务*/
+.fuwu{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 3% 0 1% 0;
+    color: #000000;
+    letter-spacing:10px
+}
+.shou p.map{
+    text-align: center;
+    letter-spacing:5px;
+    font-size: 1.6rem;
+    margin-bottom:20px;
+    color:#666;
+}
+.shou .customer{
+    text-align: center;
+    line-height: 2;
+    letter-spacing:5px;
+    color:#666;
+}
+
+/*联系方式*/
+.information{
+    margin-top: 5%;
+    position: relative;
+    margin-bottom: 3%;
+}
+.information img{
+    width:100%;
+}
+.information>span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*background: rgba(0,0,0,0.1);*/
+}
+.information .contact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%,-50%);
+    background: rgba(225,225,225,0.6);
+    padding: 3% 12%;
+
+}
+.information .contact p{
+    padding: 2% 0;
+}
+.information .contact em{
+    font-style: normal;
+}
+
+
+
+
+
+

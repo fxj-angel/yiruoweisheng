@@ -1,0 +1,82 @@
+/*banner*/
+.ban img{
+    width: 100%;
+}
+.pos{
+    padding-top: 2%;
+}
+.pos span{
+    padding:0 1% 0 0;
+}
+
+/*招聘岗位*/
+.post{
+    padding-top:3%;
+    padding-bottom: 2%;
+
+}
+.post .post_title{
+    letter-spacing:5px;
+    font-size:1.6rem;
+    font-weight:700;
+}
+.post .line{
+    padding-bottom:2%;
+    width: 100%;
+    border-bottom:1px solid #999999;
+}
+
+/*招聘信息*/
+.post .information{
+    padding-top:5%
+}
+.post strong{
+    font-size: 1.8rem;
+}
+.post .information ul{
+    margin-bottom:0;
+}
+.post .information ul li>strong{
+    color: #0079ff;
+}
+.post .information ul li:not(:first-child){
+    padding-top: 1%;
+    letter-spacing:2px;
+}
+.post .information ul li em{
+    width: 5px;
+    height: 5px;;
+    background: #999999;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/*岗位职责*/
+.duty{
+    padding-top: 2%;
+}
+.duty .duty_text{
+    padding-top: 1%;
+    letter-spacing:2px;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
