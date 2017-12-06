@@ -1,5 +1,7 @@
-//$(function(){
-//    $('.head-nav a').click(function(){
-//        $(this).css('border-bottom','1px solid #fff');
-//    })
-//});
+$('.down').mouseenter(function(){
+    $(this).find('div').slideDown('slow');
+    $(this).children().css('border-bottom','2px solid transparent');
+});
+$('.down').mouseleave(function(){
+    $(this).find('div').slideUp('slow')
+});
