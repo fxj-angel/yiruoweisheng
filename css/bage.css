@@ -33,10 +33,9 @@ button{outline:none;}
 .head-nav li>a{display:inline-block;padding:32px 0 28px 0;border-bottom:2px solid
 transparent;}
 .head-nav ul li div{width:100%;position:absolute;top:82px;left:0;z-index: 100;background:#fff;display:none;}
-.head-nav ul li div a:first-child{padding:20px 0;color:#000;}
-.head-nav ul li div a:last-child{padding:20px 0;color:#000;}
+.head-nav ul li div a{padding:20px 0;color:#000;font-size:1.6rem;}
+/*.head-nav ul li div a:last-child{padding:20px 0;color:#000;}*/
 .head-nav ul li div a:hover{color:#4e83d9;}
-.head-nav ul li div a{color:#fff;font-size:1.6rem;}
 #myCollapse ul li>a:hover{border-bottom:2px solid #fff;color:#fff;}
 
 /*footer*/
